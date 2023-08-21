@@ -1,0 +1,7 @@
+package data
+
+class Car(paramBrand: String, paramYear: Int = 2020){
+    var brand: String = paramBrand
+    var year: Int = paramYear
+}
+//Jika ingin membuat nilai default pada properti lebih baik menggunakan constructor agar lebih mudah merubahnya dalam object
