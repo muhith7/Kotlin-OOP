@@ -1,5 +1,5 @@
 <h2 align="center">Kotlin Object Oriented Programming</h2>
-<p align="center"><img src="https://kotlinconf.com/static/99ca9827b7cab75b6fffde60f6f60fe5/167eb/overview-head.webp" alt="" width="750" height="300"></p>
+<p align="center"><img src="https://developer.android.com/static/images/cluster-illustrations/kotlin-hero.svg" alt="" width="750" height="300"></p>
 
 `Note: When an object of the class is created, it has access to all of the class functions.`
 
@@ -14,3 +14,10 @@
 `Saat kita membuat ulang sebuah function di class child secara default function tersebut ber-Sifat open dimana berarti function tersebut dapat dibuat ulang lagi oleh class child di bawahnya `
 
 `jika tidak ingin function yang dibuat ulang dipakai class child dibawahnya makan harus ditambahkan kata kunci (final) didepan (override)`
+
+**Super Keyword**
+
+`Super keyword sama halnya dengan this yang menyatakan properties di class tersebut, sedangkan keyword super digunakan untuk mengakses function atau properties parent class didalam child class, contohnya {super.(function/properties)}.`
+
+
+**Next ?**
