@@ -20,4 +20,6 @@
 `Super keyword sama halnya dengan this yang menyatakan properties di class tersebut, sedangkan keyword super digunakan untuk mengakses function atau properties parent class didalam child class, contohnya {super.(function/properties)}.`
 
 
-**Next ?**
+**Super Constructor**
+
+`Sama seperti sebelumnya keyword super juga bisa digunakan pada constructor, dimana ini berguna untuk memanggil atau menggunakan ulang constructor Class Parent kepada Class Child, Namun class child tidak bisa menggunakan primary constructor jika ingin menggunakan super keyword, Jika ingin menggunakan primary constructor maka tidak perlu lagi menggunakan super keyword`
