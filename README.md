@@ -23,3 +23,7 @@
 **Super Constructor**
 
 `Sama seperti sebelumnya keyword super juga bisa digunakan pada constructor, dimana ini berguna untuk memanggil atau menggunakan ulang constructor Class Parent kepada Class Child, Namun class child tidak bisa menggunakan primary constructor jika ingin menggunakan super keyword, Jika ingin menggunakan primary constructor maka tidak perlu lagi menggunakan super keyword`
+
+**Any Class**
+
+`Any Class merupakan default parent sebuah class dalam kotlin, Dimana ketika kita membuat class yang tidak memiliki extend (:) maka secara default class tersebuh sebuah child dari Any Class (Super Class), dan jika Class Child memiliki Class Prent, Class Parent tersebut juga memilik default parent Any Class`
