@@ -42,4 +42,8 @@
 
 **toString() Function**
 
-`toSting() merupakan salah satu funtion yang dimiliki oleh superclass Any, toString merupakan representasi String dari object, Standarnya toString() akan mengembalikan referensi kode unik ketika kita lakukan println, kita bisa meng-Override function toString() jika ingin mengubah representasi dari String pada object yang kita miliki` 
+`toSting() merupakan salah satu funtion yang dimiliki oleh superclass Any, toString merupakan representasi String dari object, Standarnya toString() akan mengembalikan referensi kode unik ketika kita lakukan println, kita bisa meng-Override function toString() jika ingin mengubah representasi dari String pada object yang kita miliki`
+
+**equals Function**
+
+`Di kotlin, Semua object bisa dibandingkan menggunakan operasi "==" atau "!=", Saat membandingkan objek menggunakan operasi tersebut sebenarnya koltin akan menggunkan function equals() milik class super Any, Untuk mengubah cara membandingkannya kita bisa meng-override equals milik class Any.`
