@@ -39,3 +39,7 @@
 **Safe Nullable Cast**
 
 `Namun kotlin juga dapat mengganti paksa tipe data dengan aman menggunakan metode nullable dimana keyword yang di gunakan adalah "as?" ketika hasil yang dikeluarkan tidak sesuai dengan tipe data yang di inginkan maka tidak akan terjadi error, tetapi akan null.(More Safe)`
+
+**toString() Function**
+
+`toSting() merupakan salah satu funtion yang dimiliki oleh superclass Any, toString merupakan representasi String dari object, Standarnya toString() akan mengembalikan referensi kode unik ketika kita lakukan println, kita bisa meng-Override function toString() jika ingin mengubah representasi dari String pada object yang kita miliki` 
