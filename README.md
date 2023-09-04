@@ -26,4 +26,16 @@
 
 **Any Class**
 
-`Any Class merupakan default parent sebuah class dalam kotlin, Dimana ketika kita membuat class yang tidak memiliki extend (:) maka secara default class tersebut sebuah child dari Any Class (Super Class), dan jika Class Child memiliki Class Prent, Class Parent tersebut juga memilik default parent Any Class`
+`Any Class merupakan default parent sebuah class dalam kotlin, Dimana ketika kita membuat class yang tidak memiliki extend (:) maka secara default class tersebut sebuah child dari Any Class (Super Class), dan jika Class Child memiliki Class Prent, Class Parent tersebut juga memilik default parent Any Class.`
+
+**Type Check & Cast**
+
+`Sesuai dengan namanya Type Check & Cast Metode ini digunakan untuk meng-check Type data dan meng-Konversi ke tipe data lainnya secara generik menggukan tipe data Any.`
+
+**Unsafe Cast**
+
+`Kotlin juga mendukung konversi tipe data secara paksa menggunakan keyword (as), Namun metode ini tidak aman jika tipe data-nya ternyata tidak sesuai.`
+
+**Safe Nullable Cast**
+
+`Namun kotlin juga dapat mengganti paksa tipe data dengan aman menggunakan metode nullable dimana keyword yang di gunakan adalah "as?" ketika hasil yang dikeluarkan tidak sesuai dengan tipe data yang di inginkan maka tidak akan terjadi error, tetapi akan null.(More Safe)`
