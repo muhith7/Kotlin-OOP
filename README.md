@@ -47,3 +47,7 @@
 **equals Function**
 
 `Di kotlin, Semua object bisa dibandingkan menggunakan operasi "==" atau "!=", Saat membandingkan objek menggunakan operasi tersebut sebenarnya koltin akan menggunkan function equals() milik class super Any, Untuk mengubah cara membandingkannya kita bisa meng-override equals milik class Any.`
+
+**hasCode Function**
+
+`hashCode merupakan function yang dimiliki oleh super class Any, dimana funtion tersebut digunakan untuk meng-representasikan number sebuah object, Salah satu penggunaan yang banyak digunakan adalah di struktur data, misal untuk memastikan tidak ada data yang di duplicate,agar lebih mudah cek di nilai hashCode-nya, Jika hashCode sama maka objectnya dianggap sama.` 
