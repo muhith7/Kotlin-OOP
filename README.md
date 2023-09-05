@@ -51,3 +51,7 @@
 **hasCode Function**
 
 `hashCode merupakan function yang dimiliki oleh super class Any, dimana funtion tersebut digunakan untuk meng-representasikan number sebuah object, Salah satu penggunaan yang banyak digunakan adalah di struktur data, misal untuk memastikan tidak ada data yang di duplicate,agar lebih mudah cek di nilai hashCode-nya, Jika hashCode sama maka objectnya dianggap sama.` 
+
+**Abstract Class**
+
+`Abstract Class merupakan class yang dibuat untuk diturunkan untuk class lain, ketika membuat class abstract kita tidak perlu men-definisikan kelas tersebut open karena secara langsung abstract menjadi open atau bisa diturunkan langsung kekelas lainya.`
