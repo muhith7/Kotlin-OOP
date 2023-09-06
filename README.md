@@ -55,3 +55,7 @@
 **Abstract Class**
 
 `Abstract Class merupakan class yang dibuat untuk diturunkan untuk class lain, ketika membuat class abstract kita tidak perlu men-definisikan kelas tersebut open karena secara langsung abstract menjadi open atau bisa diturunkan langsung kekelas lainya.`
+
+**Abstract Properties & Function**
+
+`Abstract Properties & Function merupakan Properties dan Function yang wajib di override ke class child dimana Abstract Properties dan Function tidak perlu di-insialisasikan value dan blok kode-nya diwajibkan hanya di subclass atau class child-nya`
