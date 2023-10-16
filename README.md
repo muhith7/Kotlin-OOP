@@ -59,3 +59,8 @@
 **Abstract Properties & Function**
 
 `Abstract Properties & Function merupakan Properties dan Function yang wajib di override ke class child dimana Abstract Properties dan Function tidak perlu di-insialisasikan value dan blok kode-nya diwajibkan hanya di subclass atau class child-nya`
+
+**Getter & Setter**
+
+`Getter adalah function yang dibuat untuk mengambil data properties sedangkan Setter adalah function yang dibuat untuk mengubah data properties.
+Getter dan Setter tidak wajib dideklarasikan semua dalam kotlin, Kita bisa hanya mendeklarasikan salah satunya saja Getter atau Setter.`
