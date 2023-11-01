@@ -64,3 +64,7 @@
 
 `Getter adalah function yang dibuat untuk mengambil data properties sedangkan Setter adalah function yang dibuat untuk mengubah data properties.
 Getter dan Setter tidak wajib dideklarasikan semua dalam kotlin, Kita bisa hanya mendeklarasikan salah satunya saja Getter atau Setter.`
+
+**Late-Initialized Properties**
+
+`Setandarnya Properties/Identifier di Kotlin wajib di inisialisasi-kan diawal saat di deklarasikan, Namun didalam Kotlin kita bisa menunda inisialisasi data para properties/identifier dengan menggunkan kata kunci ( lateinit ), Dan kata kunci tersebut hanya dapat digunakan pada var.`
