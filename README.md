@@ -68,3 +68,7 @@ Getter dan Setter tidak wajib dideklarasikan semua dalam kotlin, Kita bisa hanya
 **Late-Initialized Properties**
 
 `Setandarnya Properties/Identifier di Kotlin wajib di inisialisasi-kan diawal saat di deklarasikan, Namun didalam Kotlin kita bisa menunda inisialisasi data para properties/identifier dengan menggunkan kata kunci ( lateinit ), Dan kata kunci tersebut hanya dapat digunakan pada var.`
+
+**Interface**
+
+`Interface merupakan sebuah blueprint Sama tapi tak serupa dengan Class, Interface lebih mirip dengan Class Abstrak karena Interface tidak perlu menginisialisasikan properties dan function didalamnya tanpa harus menuliskan kata abstract, Di interface juga kita bisa membuat concrete yang artinya bisa tidak membuat function tersebut di Class Child, default function dari interface juga secara langsung open, di Interface juga bisa melakukan Multiple inheritance dimana class child bisa memiliki banyak parent Interface, INterface juga bisa inheritance antar Interface`
