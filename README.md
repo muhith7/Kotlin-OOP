@@ -72,3 +72,8 @@ Getter dan Setter tidak wajib dideklarasikan semua dalam kotlin, Kita bisa hanya
 **Interface**
 
 `Interface merupakan sebuah blueprint Sama tapi tak serupa dengan Class, Interface lebih mirip dengan Class Abstrak karena Interface tidak perlu menginisialisasikan properties dan function didalamnya tanpa harus menuliskan kata abstract, Di interface juga kita bisa membuat concrete yang artinya bisa tidak membuat function tersebut di Class Child, default function dari interface juga secara langsung open, di Interface juga bisa melakukan Multiple inheritance dimana class child bisa memiliki banyak parent Interface, INterface juga bisa inheritance antar Interface`
+
+**Visibility Modifiers**
+
+`Sesuai dengan namanya "Visibility" jarak pandang dan "Modifiers" pengubah, mungkind dari awal ketika mempelajari java atau kotlin tidak asing dengan visibility modifiers namun belum mengetahui maksudnya, gambar dibawah penjelasan detail tentang visibility modifiers`
+<img alt="alternatetext" src="src/main/resources/img/VisibilityModifier.png"/>
