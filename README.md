@@ -77,3 +77,7 @@ Getter dan Setter tidak wajib dideklarasikan semua dalam kotlin, Kita bisa hanya
 
 `Sesuai dengan namanya "Visibility" jarak pandang dan "Modifiers" pengubah, mungkind dari awal ketika mempelajari java atau kotlin tidak asing dengan visibility modifiers namun belum mengetahui maksudnya, gambar dibawah penjelasan detail tentang visibility modifiers`
 <img alt="alternatetext" src="src/main/resources/img/VisibilityModifier.png"/>
+
+**Extensions Function**
+
+`Extensions Function merupakan sebuah metode untuk melanjutkan atau menambahkan data yang sudah ada menggunakan function, extension function juga bisa nullable safe hanya dengan ditambahkan (?) pada code. Extention bukanlah Function di Class, kita tidak menambahkan atau mengedit function didalam class yang artinya kita tidak dapat meng-akses private dan protected visibility modifier.`
